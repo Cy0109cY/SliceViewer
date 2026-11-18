@@ -7,10 +7,12 @@
 
 ## ⬇️ 下载
 
+> 最新版与历史版本见 [Releases](https://github.com/Cy0109cY/SliceViewer/releases)。
+
 | 系统 | 下载 | 说明 |
 |---|---|---|
-| **Windows 10 / 11（64 位）** | [**SliceViewer-Windows.exe**](https://github.com/Cy0109cY/SliceViewer/raw/main/downloads/SliceViewer-Windows.exe) | 单文件，下载后**双击即可运行**，无需安装 |
-| **macOS（Apple 芯片 M1/M2/M3/M4）** | [**SliceViewer-macOS-AppleSilicon.zip**](https://github.com/Cy0109cY/SliceViewer/raw/main/downloads/SliceViewer-macOS-AppleSilicon.zip) | 解压后得到「切片查看器.app」，拖到「应用程序」即可 |
+| **Windows 10 / 11（64 位）** | [**SliceViewer-Windows.exe**](https://github.com/Cy0109cY/SliceViewer/releases/latest/download/SliceViewer-Windows.exe) | 单文件，下载后**双击即可运行**，无需安装 |
+| **macOS（Apple 芯片 M1/M2/M3/M4）** | [**SliceViewer-macOS-AppleSilicon.zip**](https://github.com/Cy0109cY/SliceViewer/releases/latest/download/SliceViewer-macOS-AppleSilicon.zip) | 解压后得到「切片查看器.app」，拖到「应用程序」即可 |
 
 > 首次打开的提示（软件未经商业代码签名，属正常现象）：
 > - **Windows**：若出现 SmartScreen「已保护你的电脑」，点「**更多信息 → 仍要运行**」。

@@ -1,0 +1,22 @@
+name: release
+# 推送到 staging 分支时：把 downloads/ 里的安装包发布为 GitHub Release，然后删除 staging 分支
+on:
+  push:
+    branches: [staging]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="v$(cat VERSION)"
+          gh release create "$TAG" downloads/* --title "切片查看器 $TAG" --notes-file NOTES.md --latest
+      - name: Remove staging branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: git push origin --delete staging
